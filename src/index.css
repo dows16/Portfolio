@@ -9,6 +9,7 @@
     /* I learnt that this meant that every "li" (list item) bullet points will be removed. */ 
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -58,6 +59,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -81,7 +83,7 @@ a{
 
 a:hover {
     color: var(--color-primary);
-    transform: scale(1.5);
+    transform: scale(1.6);
 }
 
 .btn {
@@ -99,7 +101,7 @@ a:hover {
     color: var(--color-bg);
     background: #2196F3;
     box-shadow: 0 0 20px #2196F3;
-    transition-delay: 0.2s;
+    transition-delay: 0.1s;
 }
 
 img {
