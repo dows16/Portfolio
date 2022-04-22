@@ -9,7 +9,6 @@
     /* I learnt that this meant that every "li" (list item) bullet points will be removed. */ 
     list-style: none;
     text-decoration: none;
-    scroll-behavior: smooth;
 }
 
 :root {
