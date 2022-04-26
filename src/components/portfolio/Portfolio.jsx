@@ -22,6 +22,47 @@ const Portfolio = () => {
             <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
             <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
         </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+
+          </div>
+            <h3>This is a portfolio item title</h3>
+            <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
+            <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+
+          </div>
+            <h3>This is a portfolio item title</h3>
+            <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
+            <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+
+          </div>
+            <h3>This is a portfolio item title</h3>
+            <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
+            <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+
+          </div>
+            <h3>This is a portfolio item title</h3>
+            <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
+            <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+
+          </div>
+            <h3>This is a portfolio item title</h3>
+            <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
+            <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+        </article>
       </div>
     </section>
   )
