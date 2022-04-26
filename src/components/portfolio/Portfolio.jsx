@@ -12,11 +12,11 @@ const Portfolio = () => {
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-        <img src={IMG1} alt="portfolio 1 image" />
+
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-
+            <img src={IMG1} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
             <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
@@ -24,7 +24,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-
+            <img src={IMG1} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
             <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
@@ -32,7 +32,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-
+            <img src={IMG1} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
             <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
@@ -40,7 +40,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-
+            <img src={IMG1} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
             <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
@@ -49,7 +49,7 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-
+            <img src={IMG1} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
             <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
@@ -57,7 +57,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-
+            <img src={IMG1} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
             <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
