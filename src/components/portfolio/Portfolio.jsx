@@ -14,54 +14,65 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
+        <article className="portfolio__items">
+          <div className="portfolio__items-image">
             <img src={IMG1} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
-            <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+            <div className="portfolio-cta">
+              <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
+              <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+            </div>
         </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
+        <article className="portfolio__items">
+          <div className="portfolio__items-image">
             <img src={IMG1} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
-            <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+            <div className="portfolio-cta">
+              <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
+              <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+            </div>
         </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
+        <article className="portfolio__items">
+          <div className="portfolio__items-image">
             <img src={IMG1} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
-            <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+            <div className="portfolio-cta">
+              <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
+              <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+            </div>
         </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
+        <article className="portfolio__items">
+          <div className="portfolio__items-image">
             <img src={IMG1} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
-            <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+            <div className="portfolio-cta">
+              <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
+              <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+            </div>
         </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
+        <article className="portfolio__items">
+          <div className="portfolio__items-image">
             <img src={IMG1} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
-            <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+            <div className="portfolio-cta">
+              <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
+              <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+            </div>
         </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
+        <article className="portfolio__items">
+          <div className="portfolio__items-image">
             <img src={IMG1} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
-            <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+            <div className="portfolio-cta">
+              <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
+              <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
+            </div>
         </article>
       </div>
     </section>
