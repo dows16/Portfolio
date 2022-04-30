@@ -19,57 +19,57 @@ const Portfolio = () => {
             <img src={IMG1} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <div className="portfolio-cta">
+            <div className="portfolio__items-cta">
               <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
               <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
             </div>
         </article>
         <article className="portfolio__items">
           <div className="portfolio__items-image">
-            <img src={IMG1} alt="portfolio image 1" />
+            <img src={IMG2} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <div className="portfolio-cta">
+            <div className="portfolio__items-cta">
               <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
               <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
             </div>
         </article>
         <article className="portfolio__items">
           <div className="portfolio__items-image">
-            <img src={IMG1} alt="portfolio image 1" />
+            <img src={IMG3} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <div className="portfolio-cta">
+            <div className="portfolio__items-cta">
               <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
               <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
             </div>
         </article>
         <article className="portfolio__items">
           <div className="portfolio__items-image">
-            <img src={IMG1} alt="portfolio image 1" />
+            <img src={IMG4} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <div className="portfolio-cta">
+            <div className="portfolio__items-cta">
               <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
               <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
             </div>
         </article>
         <article className="portfolio__items">
           <div className="portfolio__items-image">
-            <img src={IMG1} alt="portfolio image 1" />
+            <img src={IMG5} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <div className="portfolio-cta">
+            <div className="portfolio__items-cta">
               <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
               <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
             </div>
         </article>
         <article className="portfolio__items">
           <div className="portfolio__items-image">
-            <img src={IMG1} alt="portfolio image 1" />
+            <img src={IMG6} alt="portfolio image 1" />
           </div>
             <h3>This is a portfolio item title</h3>
-            <div className="portfolio-cta">
+            <div className="portfolio__items-cta">
               <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
               <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
             </div>
