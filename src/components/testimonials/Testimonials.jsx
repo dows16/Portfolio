@@ -17,7 +17,34 @@ const Testimonials = () => {
             <img src={AVTR1} alt="Photo of First Client" />
           </div>
           <h5 className="client__name">Ernest Achiever</h5>
-            <small className="client__review">
+          <small className="client__review">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora repellat inventore, natus amet et obcaecati molestias nisi ea unde doloremque, possimus vel! Sint explicabo, non aspernatur aliquid veniam dolore.
+            </small>
+        </article>
+        <article className="testimonial">
+          <div className="client__avatar">
+            <img src={AVTR2} alt="Photo of Second Client" />
+          </div>
+          <h5 className="client__name">Ernest Achiever</h5>
+          <small className="client__review">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora repellat inventore, natus amet et obcaecati molestias nisi ea unde doloremque, possimus vel! Sint explicabo, non aspernatur aliquid veniam dolore.
+            </small>
+        </article>
+        <article className="testimonial">
+          <div className="client__avatar">
+            <img src={AVTR3} alt="Photo of Third Client" />
+          </div>
+          <h5 className="client__name">Ernest Achiever</h5>
+          <small className="client__review">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora repellat inventore, natus amet et obcaecati molestias nisi ea unde doloremque, possimus vel! Sint explicabo, non aspernatur aliquid veniam dolore.
+            </small>
+        </article>
+        <article className="testimonial">
+          <div className="client__avatar">
+            <img src={AVTR4} alt="Photo of Forth Client" />
+          </div>
+          <h5 className="client__name">Ernest Achiever</h5>
+          <small className="client__review">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora repellat inventore, natus amet et obcaecati molestias nisi ea unde doloremque, possimus vel! Sint explicabo, non aspernatur aliquid veniam dolore.
             </small>
         </article>
