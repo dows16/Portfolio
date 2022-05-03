@@ -16,22 +16,23 @@ const Contact = () => {
             <MdMailOutline />
             <h4>Email</h4>
             <h5>dowson2022@gmail.com</h5>
-            <a href="mailto:dowson2022@gmail.com">Send a messages</a>
+            <a href="mailto:dowson2022@gmail.com">Send an email</a>
           </article>
           <article className="contact__option">
             <FaDiscord />
             <h4>Discord</h4>
             <h5>dows#7844</h5>
-            <a href="discord.com/app">Send a Friend Request</a>
+            <a href="discord.com/app">Send a friend request</a>
           </article>
+          {/* The link to messenger doesn't work since I don't have messenger so the one below is an example*/}
           <article className="contact__option">
             <RiMessengerLine />
-            <h4>Email</h4>
-            <h5>dowson2022@gmail.com</h5>
-            <a href="mailto:dowson2022@gmail.com">Send a messages</a>
+            <h4>Messenger</h4>
+            <h5>dowsoncheung26</h5>
+            <a href="https://m.me/dowsoncheung26">Send a message</a>
           </article>
         </div>
-        {/* END OF CONTACt OPTIONS */}
+        {/* END OF CONTACT OPTIONS */}
         <form action=""></form>
       </div>
     </section>
