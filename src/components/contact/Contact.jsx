@@ -14,21 +14,21 @@ const Contact = () => {
         <div className="contact__options">
           {/* The link opens up your mail app/a new email tab (gmail on your browser) and creates a draft email having it set so the receiving email is 'dowson2022@gmail.com' */}
           <article className="contact__option">
-            <MdMailOutline />
+            <MdMailOutline className="contact__option-icon" />
             <h4>Email</h4>
             <h5>dowson2022@gmail.com</h5>
             <a href="mailto:dowson2022@gmail.com" target="_blank">Send an email</a>
           </article>
           {/* The link brings you to the discord website */}
           <article className="contact__option">
-            <FaDiscord />
+            <FaDiscord className="contact__option-icon" />
             <h4>Discord</h4>
             <h5>dows#7844</h5>
             <a href="https://www.discord.com/app" target="_blank">Send a friend request</a>
           </article>
           {/* The link to messenger doesn't work since I don't have messenger but it does bring you to the messenger website*/}
           <article className="contact__option">
-            <RiMessengerLine />
+            <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>dowsoncheung26</h5>
             <a href="https://m.me/dowsoncheung26" target="_blank">Send a message</a>
