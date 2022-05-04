@@ -1,3 +1,4 @@
+/* Styles for the footer tag. */
 footer {
     background: var(--color-primary);
     padding: 3rem 0;
@@ -5,22 +6,22 @@ footer {
     font-size: 0.9rem;
     margin-top: 7rem;
 }
-
+/* Styles for the footer's a tag. */
 footer a {
     color: var(--color-bg);
 }
-
+/* Styles for the "footer__logo" classname. */
 .footer__logo {
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
 }
-
+/* Styles for the "footer__logo" classname when your cursor is hovered over it */
 .footer__logo:hover {
     transform: scale(1);
 }
-
+/* Styles for the "permalinks" classname. */
 .permalinks {
     display: flex;
     flex-wrap: wrap;
@@ -28,14 +29,14 @@ footer a {
     gap: 2rem;
     margin: 0 auto 3rem;
 }
-
+/* Styles for the "footer__socials" classname. */
 .footer__socials {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 4rem;
 }
-
+/* Styles for the "footer__socials" a tag. */
 .footer_socials a {
     background: var(--color-bg);
     color: var(--color-white);
@@ -44,13 +45,13 @@ footer a {
     display: flex;
     border: 1px solid transparent;
 }
-
+/* Styles for the "footer__socials" a tag when your cursor is hovered over it */
 .footer__socials a:hover {
     background: transparent;
     color: var(--color-bg);
     border-color: var(--color-bg);
 }
-
+/* Styles for the "footer__copyright" classname. */
 .footer__copyright {
     margin-bottom: 4rem;
     color: var(--color-bg);

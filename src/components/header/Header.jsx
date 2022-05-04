@@ -8,7 +8,7 @@ import HeaderSocials from './HeaderSocials';
 import ME from '../../assets/me.png';
 
 const Header = () => {
-  //This is for rendering the nav section of my site.
+  //This is for rendering the header section of my site.
   return (
     <header>
       <div className="container header__container">

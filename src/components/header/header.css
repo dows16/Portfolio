@@ -30,7 +30,7 @@ header {
     left: 0;
     bottom: 3rem;
 }
-
+/* Styles for the "header__socials" classname the "::after" CSS component is often used to add cosmetic content to an element with the content property. */
 .header__socials::after {
     content: "";
     width: 1px;
@@ -60,11 +60,11 @@ header {
     font-weight: 300;
     font-size: 0.9rem;
 }
-
+/* Styles for the "scroLL__down" classname when your cursor is hovered over it */
 .scroll__down:hover {
     transform: scale(1.2) rotate(90deg);
 }
-
+/* Styles for the "btn" classname when your cursor is hovered over it */
 .btn:hover {
     transform: scale(1.2);
 }
@@ -81,7 +81,7 @@ header {
     header {
         height: 100vh;
     }
-
+    
     .header__socials, .scroll__down {
         display: none;
     }

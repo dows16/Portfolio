@@ -5,7 +5,7 @@ import {FaGithub} from 'react-icons/fa';
 import {SiDiscord} from 'react-icons/si';
 
 const HeaderSocials = () => {
-  //This is for rendering the nav section of my site.
+  //This is for rendering the header socials section of my site.
   return (
     <div className="header__socials">
       {/* Below are links to my Instagram profile, my GitHub profile, and the discord website embedded into a anchor tag which is displayed as a react-icon that looks like a button that opens the link into a new tab */}
