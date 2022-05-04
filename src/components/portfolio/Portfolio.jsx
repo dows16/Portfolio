@@ -25,7 +25,7 @@ const Portfolio = () => {
           </div>
             <h3>This is a portfolio item title</h3>
             <div className="portfolio__items-cta">
-              {/* Below are links to my code and a live repl demo of the product embedded into a anchor tag that looks like a button*/}
+              {/* Below are links to my code and a live repl demo of the product embedded into a anchor tag that looks like a button that opens the link into a new tab */}
               <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
               <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
             </div>
@@ -38,7 +38,7 @@ const Portfolio = () => {
           </div>
             <h3>This is a portfolio item title</h3>
             <div className="portfolio__items-cta">
-              {/* Below are links to my code and a live repl demo of the product embedded into a anchor tag that looks like a button*/}
+              {/* Below are links to my code and a live repl demo of the product embedded into a anchor tag that looks like a button that opens the link into a new tab */}
               <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
               <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
             </div>
@@ -51,7 +51,7 @@ const Portfolio = () => {
           </div>
             <h3>This is a portfolio item title</h3>
             <div className="portfolio__items-cta">
-              {/* Below are links to my code and a live repl demo of the product embedded into a anchor tag that looks like a button*/}
+              {/* Below are links to my code and a live repl demo of the product embedded into a anchor tag that looks like a button that opens the link into a new tab */}
               <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
               <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
             </div>
@@ -64,7 +64,7 @@ const Portfolio = () => {
           </div>
             <h3>This is a portfolio item title</h3>
             <div className="portfolio__items-cta">
-              {/* Below are links to my code and a live repl demo of the product embedded into a anchor tag that looks like a button*/}
+              {/* Below are links to my code and a live repl demo of the product embedded into a anchor tag that looks like a button that opens the link into a new tab */}
               <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
               <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
             </div>
@@ -77,7 +77,7 @@ const Portfolio = () => {
           </div>
             <h3>This is a portfolio item title</h3>
             <div className="portfolio__items-cta">
-              {/* Below are links to my code and a live repl demo of the product embedded into a anchor tag that looks like a button*/}
+              {/* Below are links to my code and a live repl demo of the product embedded into a anchor tag that looks like a button that opens the link into a new tab */}
               <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
               <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
             </div>
@@ -90,7 +90,7 @@ const Portfolio = () => {
           </div>
             <h3>This is a portfolio item title</h3>
             <div className="portfolio__items-cta">
-              {/* Below are links to my code and a live repl demo of the product embedded into a anchor tag that looks like a button*/}
+              {/* Below are links to my code and a live repl demo of the product embedded into a anchor tag that looks like a button that opens the link into a new tab */}
               <a href="https://github.com/dows16/web" className="btn" target="_blank">GitHub</a>
               <a href="https://web.dows16.repl.co" className="btn" target="_blank">Live Demo</a>
             </div>
