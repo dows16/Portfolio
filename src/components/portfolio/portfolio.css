@@ -1,9 +1,10 @@
+/* Styles for the "portfolio__container" classname. */
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 }
-
+/* Styles for the "portfolio__items" classname. */
 .portfolio__items {
     background: var(--color-bg-variant);
     padding: 1.3rem;
@@ -11,21 +12,22 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
-
+/* Styles for the "portfolio__items" classname when your cursor is hovered over it */
 .portfolio__items:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
 }
-
+/* Styles for the "portfolio__items-image" classname. */
 .portfolio__items-image {
     border-radius: 1.5rem;
+    /* The "overflow" CSS component sets the desired behavior for an element's overflow, when an element's content is too big to fit in its block formatting context. */
     overflow: hidden;
 }
-
+/* Styles for the "portfolio__items" h3 tag. */
 .portfolio__items h3 {
     margin: 1.2rem 0 2rem;
 }
-
+/* Styles for the "portfolio__items-cta" classname. */
 .portfolio__items-cta {
     display: flex;
     gap: 1rem;

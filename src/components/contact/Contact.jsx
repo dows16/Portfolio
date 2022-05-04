@@ -54,7 +54,7 @@ const Contact = () => {
           <input type="email" name="email" placeholder="Enter your email address" required />
           {/* textarea is a frequently used form control is JSX, which is used to get multi-line input from a user. It's different from a normal text input, which allows only single-line input.*/}
           <textarea name="message" rows="7" placeholder="Enter your message" required />
-          <button className="btn" type="submit" >Submit Message</button>
+          <button className="btn__submit" type="submit" >Submit Message</button>
         </form>
       </div>
     </section>
