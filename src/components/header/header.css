@@ -1,10 +1,11 @@
+/* Styles for the header tag */
 header {
     /* I learnt that you can set the height to "viewport height" */
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
 }
-
+/* Styles for the "header__container" classname. */
 .header__container {
     text-align: center;
     height: 100%;
