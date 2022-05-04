@@ -3,9 +3,11 @@ import React from 'react';
 import { useRef } from 'react';
 //Below I imported the CSS file with all the styles for this part of the website.
 import contact from './contact.css';
+//Below I imported all the react-icons I need for this section of the website.
 import {MdMailOutline} from 'react-icons/md';
 import {FaDiscord} from 'react-icons/fa';
 import {RiMessengerLine} from 'react-icons/ri';
+//I imported the emailjs tool to help me create a contact form that send emails using client side technologies only, no server is required. Emailjs made it easier with the direct messaging part in the contact form.
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -19,7 +21,7 @@ const Contact = () => {
     //This code resets the input once the user has clicked submit.
     e.target.reset();
   };
-
+  //This is for rendering the contact section of my site.
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
