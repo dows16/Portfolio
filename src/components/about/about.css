@@ -1,35 +1,38 @@
+/* Styles for the "about__container" classname. */
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
 }
-
+/* Styles for the "about__me" classname. */
 .about__me {
     width: 100%;
+    /* The aspect-ratio CSS component lets me create boxes that maintain proportional dimensions where the height and width of a box are calculated. */
     aspect-ratio: 1/1;
     border-radius: 2rem;
+    /* This is my code for my gradient color box */
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
 }
-
+/* Styles for the "about__me-image" classname. */
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
 }
-
+/* Styles for the "about__me-image" classname when your cursor is hovered over it */
 .about__me-image:hover {
     transform: rotate(0);
 }
-
+/* Styles for the "about__cards" classname. */
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
-
+/* Styles for the "about__card" classname. */
 .about__card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
@@ -38,29 +41,29 @@
     text-align: center;
     transition: var(--transition);
 }
-
+/* Styles for the "about__cards" classname when your cursor is hovered over it */
 .about__card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
     transform: scale(1.1);
 }
-
+/* Styles for the "about__icon" classname. */
 .about__icon {
     color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
-
+/* Styles for the "about__card" h5 tag */
 .about__card h5 {
     font-size: 0.95rem;
 }
-
+/* Styles for the "about__card" small tag */
 .about__card small {
     font-size: 0.7rem;
     color: var(--color-light);
 }
-
+/* Styles for the "about__content" p tag */
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
