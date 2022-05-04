@@ -1,10 +1,12 @@
 import React from 'react';
+//Below I imported the useRef React module from React.
 import { useRef } from 'react';
+//Below I imported the CSS file with all the styles for this part of the website.
 import contact from './contact.css';
-import {MdMailOutline} from "react-icons/md";
-import {FaDiscord} from "react-icons/fa";
-import {RiMessengerLine} from "react-icons/ri";
-import emailjs from "emailjs-com";
+import {MdMailOutline} from 'react-icons/md';
+import {FaDiscord} from 'react-icons/fa';
+import {RiMessengerLine} from 'react-icons/ri';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   //Below is the code from the emailJS.com website they gave me which creates the contact form components.
@@ -14,7 +16,7 @@ const Contact = () => {
     e.preventDefault();
     //This code is just for connecting the service and the template I made as well as the public key for my direct message template from emailJS.
     emailjs.sendForm('service_oqxyyrm', 'template_bams13u', form.current, 'zpHD586TFvS9_ADFC')
-    //This code resets the input once the user has clicked submit
+    //This code resets the input once the user has clicked submit.
     e.target.reset();
   };
 

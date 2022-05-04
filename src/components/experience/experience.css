@@ -12,7 +12,7 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
-/* Styles for the div's under the "experience__container" classname when your cursor is hovered over it*/
+/* Styles for the div's under the "experience__container" classname when your cursor is hovered over it */
 .experience__container > div:hover {
     background: transparent;
     border-color: var(--color-primary-variant);

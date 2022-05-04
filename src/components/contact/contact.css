@@ -1,16 +1,17 @@
+/* Styles for the "container contact__container" classname. */
 .container.contact__container {
     width: 50%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
 }
-
+/* Styles for the "contact__options" classname. */
 .contact__options {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
 }
-
+/* Styles for the "contact__option" classname. */
 .contact__option {
     background: var(--color-bg-variant);
     padding: 1.2rem;
@@ -19,24 +20,24 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
-
+/* Styles for the "contact__options" classname when your cursor is hovered over it */
 .contact__option:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
 }
-
+/* Styles for the "contact__option-icon" classname. */
 .contact__option-icon {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
-
+/* Styles for the "contact__option" a tag */
 .contact__option a {
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
     transform: scale(1);
 }
-
+/* Styles for the "contact__option" a tag when your cursor is hovered over it */
 .contact__option a:hover {
     transform: scale(1.15);
 }
@@ -47,7 +48,7 @@ form {
     flex-direction: column;
     gap: 1.2rem;
 }
-
+/* Styles for the input and textarea tag */
 input, textarea {
     width: 100%;
     padding: 1.5rem;
@@ -57,13 +58,13 @@ input, textarea {
     resize: none;
     color: var(--color-white);
 }
-
+/* Styles for the "button tag */
 button {
     text-align: center;
     margin: auto;
     background-color: var(--color-primary);
 }
-
+/* Styles for the "btn__submit" classname */
 .btn__submit {
     color: var(--color-bg);
     width: max-content;
@@ -74,7 +75,7 @@ button {
     border: 1px solid var(--color-primary);
     transition: var(--transition);
 }
-
+/* Styles for the "btn__submit" classname when your cursor is hovered over it */
 .btn__submit:hover {
     color: var(--color-bg);
     background: #2196F3;
