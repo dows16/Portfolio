@@ -24,18 +24,18 @@
     margin-bottom: 2rem;
     color: var(--color-primary);
 }
-
+/* Styles for the "experience__content" classname. */
 .experience__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
 }
-
+/* Styles for the "experience__details" classname. */
 .experience__details {
     display: flex;
     gap: 1rem;
 }
-
+/* Styles for the "experience__details-icons" classname. */
 .experience__details-icons {
     margin-top: 6px;
     color: var(--color-primary);
