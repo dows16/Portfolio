@@ -1,13 +1,16 @@
-import React from 'react'
-import experience from './experience.css'
-import {RiCheckboxCircleFill} from 'react-icons/ri'
+import React from 'react';
+//Below I imported the CSS file with all the styles for this part of the website.
+import experience from './experience.css';
+//Below I imported all the react-icons I need for this section of the website.
+import {RiCheckboxCircleFill} from 'react-icons/ri';
 
 const Experience = () => {
+  //This is for rendering the experience section of my site.
   return (
     <section id="experience">
       <h5>What Skills I have</h5>
       <h2>My Experience</h2>
-
+      {/* This code is for the checklist of my skills for Blender 3D Modeling */}
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>3D Modeling (Blender)</h3>
@@ -56,7 +59,8 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        {/* ============== END OF FRONTEND ============== */}
+        {/* ============== END OF 3D MODELING ============== */}
+        {/* This code is for the checklist of my skills for front-end website development */}
         <div className="experience__backend">
           <h3>Frontend Web Development</h3>
           <div className="experience__content">
@@ -102,4 +106,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Experience;

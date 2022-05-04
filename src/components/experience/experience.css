@@ -1,9 +1,10 @@
+/* Styles for the "experience__container" classname. */
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
-
+/* Styles for the div's under the "experience__container" classname. */
 .experience__container > div {
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
@@ -11,7 +12,7 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
-
+/* Styles for the div's under the "experience__container" classname when your cursor is hovered over it*/
 .experience__container > div:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
